@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Book Ticket
+</title>
+</head>
+<body>
+<h1><center>BOOK A TICKET</center></h1>
+<center><img src="C:\wamp\www\airline1\booking.jpg" height="300" width="800"></center><br>
+<form action="home.>
+<input type="Submit" value="Home" >
+</form> 
+<a href="C:\wamp\www\airline1\Bookticket.html" title="To book a ticket"><b>BOOK TICKET</b></a> |
+<a href="C:\wamp\www\airline1\Cancelticket.html" title="To cancel a ticket"><b>CANCEL TICKET</b></a> |
+<a href="C:\wamp\www\airline1\Tickethistory.html" title="Old ticket history"><b>BOOKING HISTORY</b></a> 
+<form action="bookticketdb1.php" method="post"><br>
+	First name: <input type="text" name="fname" required><br>
+	Last name: <input type="text" name="lname"  required><br>
+ 	Age:	<input type="number" name="age"><br>
+	Gender: 
+	<input type="radio" name="gender" value="male" checked> Male
+  	<input type="radio" name="gender" value="female"> Female<br>
+	Date of journey: <input type="date" name="date"><br>
+	Route:
+		<select name="route">
+  		<option value="Mumbai-Delhi">Mumbai-Delhi</option>
+  		<option value="Mumbai-Dubai">Mumbai-Dubai</option>
+  		<option value="Delhi-Dubai">Delhi-Dubai</option>
+  		<option value="Dubai-Mumbai">Delhi-Dubai</option>
+		</select><br>
+	Class:
+
+		<select name="classed">
+  		<option value="Economy">Economy</option>
+  		<option value="Business">Business</option>
+		</select><br><br>
+	<input type="submit" value="Book">
+	<input type="reset" value="Reset">
+</form>
+</body>
+</html>
